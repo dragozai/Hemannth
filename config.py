@@ -18,14 +18,14 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8154426339:")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7986732741:AAHl9AStZgcF5Wu1CBHYTfpaIA4HsEimCIc")
 APP_ID = int(os.environ.get("APP_ID", "")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002170811388")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "sewxiy") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "7328629001")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003703174588")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "itsuhito") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "19467056")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
@@ -33,68 +33,72 @@ DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/CodeflixSupport")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/itsuhito")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/hwdownload/3")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "gplinks.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "f98a359c682f52fb3705f15909a4253392e11ea2")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/kazukailinks")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
 SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
-HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Nova_Flix\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/cosmic_freak>sᴜʙᴀʀᴜ</a></blockquote></b>"
-ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/cosmic_freak>Yato</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/otakuflix_network>ᴏᴛᴀᴋᴜғʟɪx ɴᴇᴛᴡᴏʀᴋ</a>\n◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/anime_cruise_netflix>ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ</a>\n◈ sᴇʀɪᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/webseries_flix>ᴡᴇʙsᴇʀɪᴇs ғʟɪx</a>\n◈ ᴀᴅᴜʟᴛ ᴍᴀɴʜᴡᴀ : <a href=https://t.me/pornhwa_flix>ᴘᴏʀɴʜᴡᴀs</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/cosmic_freak>subaru</a></blockquote></b>"
+HELP_TXT = "<b><blockquote>This is a file link bot for @kazukai\n\n❏ Bot Commands\n├ /start : Start the bot\n├ /about : View bot information\n└ /help : Get help related to the bot\n\nSimply click on the link, start the bot, join the required channels, and try again.\n\nDeveloped by <a href=https://t.me/itsuhito>itsuhito</a></blockquote></b>"
+
+ABOUT_TXT = "<b><blockquote>◈ Owner: <a href=https://t.me/itsuhito>itsuhito</a>\n◈ Developer: <a href=https://t.me/itsuhito>itsuhito</a></blockquote></b>"
+
 #--------------------------------------------
 #--------------------------------------------
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {mention}\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {mention}\n\n<b><blockquote>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b></blockquote>")
 
-CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockquote>
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {mention}\n\n<blockquote>I am a file store bot. I can store private files in a specified channel, and other users can access them using a special link.</blockquote></b>")
 
-<b>›› /dlt_time :</b> sᴇᴛ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴛɪᴍᴇ
-<b>›› /check_dlt_time :</b> ᴄʜᴇᴄᴋ ᴄᴜʀʀᴇɴᴛ ᴅᴇʟᴇᴛᴇ ᴛɪᴍᴇ
-<b>›› /dbroadcast :</b> ʙʀᴏᴀᴅᴄᴀsᴛ ᴅᴏᴄᴜᴍᴇɴᴛ / ᴠɪᴅᴇᴏ
-<b>›› /ban :</b> ʙᴀɴ ᴀ ᴜꜱᴇʀ
-<b>›› /unban :</b> ᴜɴʙᴀɴ ᴀ ᴜꜱᴇʀ
-<b>›› /banlist :</b> ɢᴇᴛ ʟɪsᴛ ᴏꜰ ʙᴀɴɴᴇᴅ ᴜꜱᴇʀs
-<b>›› /addchnl :</b> ᴀᴅᴅ ꜰᴏʀᴄᴇ sᴜʙ ᴄʜᴀɴɴᴇʟ
-<b>›› /delchnl :</b> ʀᴇᴍᴏᴠᴇ ꜰᴏʀᴄᴇ sᴜʙ ᴄʜᴀɴɴᴇʟ
-<b>›› /listchnl :</b> ᴠɪᴇᴡ ᴀᴅᴅᴇᴅ ᴄʜᴀɴɴᴇʟs
-<b>›› /fsub_mode :</b> ᴛᴏɢɢʟᴇ ꜰᴏʀᴄᴇ sᴜʙ ᴍᴏᴅᴇ
-<b>›› /pbroadcast :</b> sᴇɴᴅ ᴘʜᴏᴛᴏ ᴛᴏ ᴀʟʟ ᴜꜱᴇʀs
-<b>›› /add_admin :</b> ᴀᴅᴅ ᴀɴ ᴀᴅᴍɪɴ
-<b>›› /deladmin :</b> ʀᴇᴍᴏᴠᴇ ᴀɴ ᴀᴅᴍɪɴ
-<b>›› /admins :</b> ɢᴇᴛ ʟɪsᴛ ᴏꜰ ᴀᴅᴍɪɴs
-<b>›› /addpremium :</b> ᴀᴅᴅ ᴀ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀ
-<b>›› /premium_users :</b> ʟɪsᴛ ᴀʟʟ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀs
-<b>›› /remove_premium :</b> ʀᴇᴍᴏᴠᴇ ᴘʀᴇᴍɪᴜᴍ ꜰʀᴏᴍ ᴀ ᴜꜱᴇʀ
-<b>›› /myplan :</b> ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ sᴛᴀᴛᴜs
-<b>›› /count :</b> ᴄᴏᴜɴᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴs
-<b>›› /delreq :</b> Rᴇᴍᴏᴠᴇᴅ ʟᴇғᴛᴏᴠᴇʀ ɴᴏɴ-ʀᴇǫᴜᴇsᴛ ᴜsᴇʀs
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b><blockquote>Please join our channels first, then click on the reload button to access your requested file.</blockquote></b>")
+
+CMD_TXT = """<blockquote><b>» 𝘈𝘋𝘔𝘐𝘕 𝘊𝘖𝘔𝘔𝘈𝘕𝘋𝘚:</b></blockquote>
+
+<b>›› /dlt_time :</b> 𝘚𝘦𝘵 𝘢𝘶𝘵𝘰 𝘥𝘦𝘭𝘦𝘵𝘦 𝘵𝘪𝘮𝘦
+<b>›› /check_dlt_time :</b> 𝘊𝘩𝘦𝘤𝘬 𝘤𝘶𝘳𝘳𝘦𝘯𝘵 𝘥𝘦𝘭𝘦𝘵𝘦 𝘵𝘪𝘮𝘦
+<b>›› /dbroadcast :</b> 𝘉𝘳𝘰𝘢𝘥𝘤𝘢𝘴𝘵 𝘥𝘰𝘤𝘶𝘮𝘦𝘯𝘵 / 𝘷𝘪𝘥𝘦𝘰
+<b>›› /ban :</b> 𝘉𝘢𝘯 𝘢 𝘶𝘴𝘦𝘳
+<b>›› /unban :</b> 𝘜𝘯𝘣𝘢𝘯 𝘢 𝘶𝘴𝘦𝘳
+<b>›› /banlist :</b> 𝘎𝘦𝘵 𝘭𝘪𝘴𝘵 𝘰𝘧 𝘣𝘢𝘯𝘯𝘦𝘥 𝘶𝘴𝘦𝘳𝘴
+<b>›› /addchnl :</b> 𝘈𝘥𝘥 𝘧𝘰𝘳𝘤𝘦 𝘴𝘶𝘣 𝘤𝘩𝘢𝘯𝘯𝘦𝘭
+<b>›› /delchnl :</b> 𝘙𝘦𝘮𝘰𝘷𝘦 𝘧𝘰𝘳𝘤𝘦 𝘴𝘶𝘣 𝘤𝘩𝘢𝘯𝘯𝘦𝘭
+<b>›› /listchnl :</b> 𝘝𝘪𝘦𝘸 𝘢𝘥𝘥𝘦𝘥 𝘤𝘩𝘢𝘯𝘯𝘦𝘭𝘴
+<b>›› /fsub_mode :</b> 𝘛𝘰𝘨𝘨𝘭𝘦 𝘧𝘰𝘳𝘤𝘦 𝘴𝘶𝘣 𝘮𝘰𝘥𝘦
+<b>›› /pbroadcast :</b> 𝘚𝘦𝘯𝘥 𝘱𝘩𝘰𝘵𝘰 𝘵𝘰 𝘢𝘭𝘭 𝘶𝘴𝘦𝘳𝘴
+<b>›› /add_admin :</b> 𝘈𝘥𝘥 𝘢𝘯 𝘢𝘥𝘮𝘪𝘯
+<b>›› /deladmin :</b> 𝘙𝘦𝘮𝘰𝘷𝘦 𝘢𝘯 𝘢𝘥𝘮𝘪𝘯
+<b>›› /admins :</b> 𝘎𝘦𝘵 𝘭𝘪𝘴𝘵 𝘰𝘧 𝘢𝘥𝘮𝘪𝘯𝘴
+<b>›› /addpremium :</b> 𝘈𝘥𝘥 𝘢 𝘱𝘳𝘦𝘮𝘪𝘶𝘮 𝘶𝘴𝘦𝘳
+<b>›› /premium_users :</b> 𝘓𝘪𝘴𝘵 𝘢𝘭𝘭 𝘱𝘳𝘦𝘮𝘪𝘶𝘮 𝘶𝘴𝘦𝘳𝘴
+<b>›› /remove_premium :</b> 𝘙𝘦𝘮𝘰𝘷𝘦 𝘱𝘳𝘦𝘮𝘪𝘶𝘮 𝘧𝘳𝘰𝘮 𝘢 𝘶𝘴𝘦𝘳
+<b>›› /myplan :</b> 𝘊𝘩𝘦𝘤𝘬 𝘺𝘰𝘶𝘳 𝘱𝘳𝘦𝘮𝘪𝘶𝘮 𝘴𝘵𝘢𝘵𝘶𝘴
+<b>›› /count :</b> 𝘊𝘰𝘶𝘯𝘵 𝘷𝘦𝘳𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴
+<b>›› /delreq :</b> 𝘙𝘦𝘮𝘰𝘷𝘦 𝘭𝘦𝘧𝘵𝘰𝘷𝘦𝘳 𝘯𝘰𝘯-𝘳𝘦𝘲𝘶𝘦𝘴𝘵 𝘶𝘴𝘦𝘳𝘴
 """
 #--------------------------------------------
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @nova_flix</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>✦ 𝘣𝘺 @kazukai</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False #set True if you want to prevent users from forwarding files from bot
 #--------------------------------------------
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 #--------------------------------------------
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!"
+USER_REPLY_TEXT = "YOU ARE NOT AN ADMIN!!"
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "rohit_1888")
+OWNER_TAG = os.environ.get("OWNER_TAG", "itsuhito")
 UPI_ID = os.environ.get("UPI_ID", "rohit23pnb@axl")
 QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/3e83c69804826b3cba066-16cffa90cd682570da.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/rohit_1888")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/itsuhito")
 #--------------------------------------------
 #Time and its price
 #7 Days
